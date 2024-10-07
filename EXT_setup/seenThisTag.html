@@ -1,0 +1,39 @@
+<script src="https://video.seenthis.se/public/patrik/high-impact.min.js"></script>
+<script>
+
+window.highImpactJs = window.highImpactJs || { cmd: [] };
+
+function updateAdUnit(adUnitId, adUnitKey, config) {
+    window.highImpactJs.cmd.push(() => {
+        window.highImpactJs.setConfig({
+            plugins: ['gam'], // What adserver plugin to use
+            zIndex: 1,
+        });
+
+        // Use the config-specific peekAmount in setTemplateConfig
+        window.highImpactJs.setTemplateConfig(config.template, { peekAmount: config.peekAmount });
+
+        // Define slot with dynamic values from the config object
+        window.highImpactJs.defineSlot({
+            slot: config.slot, // The GAM ad slot name
+            template: config.template, // Which template to use
+            sizes: config.sizes, // Ad sizes
+            adUnitId: adUnitId, // Id of the ad slot wrapper div on the loaded page
+            waitForAdSignal: true, // Default is false
+        });
+    });
+}
+
+// Get the dynamic div id generated from AY, via prebid ad unit targeting info
+pbjs.onEvent('setTargeting', function(eventData) {
+    const options = {{ seenThisOptions }};
+    for (var adUnitId in eventData) {
+        const adUnitName = adUnitId.replace('div-gpt-ad-', '').replace(/__ayManagerEnv__.+/, '');
+        var adUnitOption = options[adUnitName];
+        if (adUnitOption) {
+            updateAdUnit(adUnitId, key, adUnitOption);
+        }
+    }
+});
+
+</script>
