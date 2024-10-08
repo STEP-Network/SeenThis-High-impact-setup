@@ -31,7 +31,7 @@ pbjs.onEvent('setTargeting', function(eventData) {
         const adUnitName = adUnitId.replace('div-gpt-ad-', '').replace(/__ayManagerEnv__.+/, '');
         var adUnitOption = options[adUnitName];
         if (adUnitOption) {
-            updateAdUnit(adUnitId, key, adUnitOption);
+          updateAdUnit(adUnitId, adUnitName, adUnitOption);
         }
     }
 });
