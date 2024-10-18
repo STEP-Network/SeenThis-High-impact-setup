@@ -36,4 +36,31 @@ pbjs.onEvent('setTargeting', function(eventData) {
     }
 });
 
+//CSS styling being applied and condition applied based on returned domain.
+const currentDomain = '{{ mappedDomain }}' || ''; // Fallback to an empty string if not defined
+
+// Define a CSS mapping for each domain
+const cssMapping = {
+  'example1.dk': ` /
+   /* styling in here */
+  `,
+  'example2.dk': `
+   /* styling in here */
+  `,
+  // Add more domains and corresponding CSS styles as needed
+};
+
+// Function to inject the CSS for the current domain
+function injectCSS(css) {
+  const style = document.createElement('style');
+  style.type = 'text/css';
+  style.innerHTML = css;
+  document.head.appendChild(style);
+}
+
+// Apply the CSS if the current domain matches one in the mapping
+if (cssMapping[currentDomain]) {
+  injectCSS(cssMapping[currentDomain]);
+}
+
 </script>
