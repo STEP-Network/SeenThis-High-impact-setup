@@ -2,9 +2,22 @@ function() {
 
     // Configuration object for specific domains, allowing overrides
     const seenThisOptions = {
-      'madensverden.dk': {},
-      'nyheder.dk': {},
-      'kendte.dk': {},
+      'example1.dk': {},
+      'example2.dk': {},
+      'example3.dk': {
+        'topscroll_mobile': {
+            template: 'topscroll',
+            slot: '{{ pathPrefix }}topscroll_mobile',
+            sizes: [[300, 230], [1, 2]],
+            peekAmount: '80vh'
+          },
+          'mobile_2': {
+            template: 'midscroll',
+            slot: '{{ pathPrefix }}mobile_2',
+            sizes: [[300, 240], [320, 320]],
+            peekAmount: '80vh' 
+          },
+      },
     };
   
     // Default configuration object for ad units
