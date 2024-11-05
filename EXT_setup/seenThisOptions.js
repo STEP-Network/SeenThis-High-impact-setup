@@ -28,6 +28,12 @@ function() {
         sizes: [[300, 230], [1, 2]],
         peekAmount: '80vh'
       },
+        'topscroll_desktop': {
+        template: 'topscroll',
+        slot: '{{ pathPrefix }}desktop',
+        sizes: [[1, 2]],
+        peekAmount: '80vh'
+      },
       'mobile_2': {
         template: 'midscroll',
         slot: '{{ pathPrefix }}mobile_2',
