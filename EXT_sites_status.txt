@@ -1,0 +1,104 @@
+//GAMMA 
+'plbold.dk'        //all topscroll issue
+'lav-det-selv.dk'  //all topscroll issue - Midscroll issue
+'madridista.dk'    //all ok 
+'localeyes.dk'     //all topscroll ok - midscroll issue on frontpage, 
+'mandesager.dk'    //all topscroll issue - Midscroll ok
+'fjordavisen.nu'   //all topscroll ok - midscroll issue
+'randersidag.dk'   //all topscroll ok - midscroll issue
+'viborgidag.dk'    //all topscroll ok - midscroll issue
+'aalborgidag.dk'   //all topscroll ok - midscroll issue
+'rebildidag.dk'    //all topscroll ok - midscroll issue
+'djurslandidag.dk' //all topscroll ok - midscroll issue
+'okonomista.dk'    //all topscroll ok - midscroll issue
+'sport.dk'         //midscroll issue (no topscroll live)
+'barcafans.dk'     //not yet live in SN
+'bifsupporters.dk' //not yet live in SN
+
+//madensverden + 123mc + digitalt.tv
+'nyheder.dk'       //all ok
+'kendte.dk'        //all ok
+'madensverden.dk'  // issue, remove test from mv - all issue
+'123mc.dk'         //all topscroll ok
+'magacin.dk'       //not yet live in SN
+'baregomad.dk'     //all ok
+'digitalt.tv'      //topcroll destkop issue (stickies overlap), topscroll mobile ok - midscroll ok
+
+//Hey-mate
+'traktorgalleri.dk'     //all topscroll issue - midscroll ok
+'scootergalleri.dk'     //all topscroll issue - midscroll ok
+'motorcykelgalleri.dk'  //all topscroll issue - midscroll ok
+'lastbilgalleri.dk'     //all topscroll issue - midscroll ok
+'kattegalleri.dk'       //all topscroll issue - midscroll ok
+'hundegalleri.dk'       //all topscroll issue - midscroll ok
+'hifigalleri.dk'        //all topscroll issue - midscroll ok
+'hestegalleri.dk'       //all topscroll issue - midscroll ok
+'havebazoom.dk'         //all topscroll issue - midscroll ok
+'gnavergalleri.dk'      //all topscroll issue - midscroll ok
+'cykelgalleri.dk'       //all topscroll issue - midscroll ok
+'boliggalleri.dk'       //all topscroll issue - midscroll ok
+'bilgalleri.dk'         //all topscroll issue - midscroll ok
+'babygalleri.dk'        //all topscroll issue - midscroll ok
+'baboom.dk'             //all topscroll issue - midscroll ok
+
+//Delta
+'proff.dk'           //all topscroll issue - midscroll ok
+'netavisen.nu'       //topscroll ok - midscroll issues
+'folketidende.dk'    //topscroll issue - midscroll issue with DAI ads
+'feltet.dk'          //topscroll mobile issue - midscrolls ok
+'motionsfeltet.dk'   //topscroll mobile issue - midscrolls ok
+'migogodense.dk'     //all topscroll ok - midscroll issue
+'migogkbh.dk'        //all topscroll ok - midscroll issue
+'migogaarhus.dk'     //all topscroll ok - midscroll issue
+'migogaalborg.dk'    //all topscroll ok - midscroll issue
+'migogesbjerg.dk'    //all topscroll ok - midscroll issue
+'myaalborg.com'      //all topscroll ok - midscroll issue
+'boligsiden.dk'      //midscroll mobile only and issue
+
+//Echo
+'mariasilje.dk'        //topscroll mobile issue, desktop ok - midscroll issue
+'marialottes.dk'       //topscroll mobile issue, desktop ok - midscroll issue
+'foodfanatic.dk'       //topscroll mobile issue, desktop ok - midscroll issue
+'beetrootbakery.dk'    //topscroll mobile issue, desktop ok - midscroll issue
+'anna-mad.dk'          //topscroll mobile issue, desktop ok - midscroll issue
+'albertestengaard.dk'  //topscroll mobile issue, desktop ok - midscroll issue
+'ditteblog.dk'         //topscroll mobile issue, desktop ok - midscroll issue
+'majspassion.dk'       //topscroll mobile issue, desktop ok - midscroll issue
+'emmaolsen.dk'         //topscroll mobile issue, desktop ok - midscroll issue
+'connery.dk'           //topscroll mobile issue, desktop ok - midscroll issue
+'mmm.dk'               //topscroll mobile issue, desktop ok - midscroll issue
+'mandekogebogen.dk'    //topscroll desktop issues (with skin loaded), mobile ok - midscroll ok
+'motorsektionen.dk'    //all topscroll ok - midscroll issues
+'familiekogebogen.dk'  //all topscroll ok - midscroll issues
+'raavareguiden.dk'     //topscroll issue - midscroll issue
+'horoskoper.net'       //all topscroll ok - Midscroll issue
+
+//Foxtrot
+'bornholm.nu'          //topscroll desktop issue, mobile ok - midscroll ok
+'nykavis.dk'           //topscroll desktop issue, mobile ok - midscroll ok
+'fodbold-transfers.dk' //topscroll desktop issue, mobile ok - midscroll issue
+'goquiz.dk'            //all topscroll ok - midscroll issue
+'gratisskole.dk'       //all topscroll ok - midscroll ok
+'barcabold.dk'         //topscroll desktop issue, mobile ok - no midscrolls? 
+'barcelonafc.dk'       //all topscroll issue - midscroll issue
+'fcbarcelona.dk'       //all topscroll ok - midscroll ok
+'vielskermad.dk'       //all topscroll ok - midscroll ok
+'oldtrafford.dk'       //all topscorll ok - midscroll ok
+'guloggratis.dk'       //no topscroll - midscroll issues
+'gastrofun.dk'         //all topscroll ok - midscroll ok
+'campo.dk'             //all topscroll ok - midscroll ok
+'3point.dk'            //all topscroll issue (menu bar) - midscroll ok 
+'gastromand.dk'        //all topscroll ok - midscroll issue
+'bornholmermarked.dk'  //all topscroll issue - midscroll issue
+'its-koral.com'        //not yet live in SN
+
+//DBU & Golf
+'golf.dk'                //topscroll desktop ok, mobile issue - midscroll ok
+'dbu.dk'                 //all topscroll issue - midscroll issue
+'dbujylland.dk'          //all topscroll issue - midscroll issue
+'dbufyn.dk'              //all topscroll issue - midscroll issue
+'dbusjaelland.dk'        //all topscroll issue - midscroll issue
+'dbukoebenhavn.dk'       //all topscroll issue - midscroll issue
+'dbulolland-falster.dk'  //all topscroll issue - midscroll issue
+'dbubornholm.dk'         //all topscroll issue - midscroll issue
+'dommer.dbu.dk'          //all topscroll issue - midscroll issue
