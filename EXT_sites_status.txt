@@ -1,5 +1,5 @@
 //GAMMA 
-'plbold.dk'        //all topscroll issue
+'plbold.dk'        //all topscroll fixed - Midscroll issue (center alignment)
 'lav-det-selv.dk'  //all topscroll issue - Midscroll issue
 'madridista.dk'    //all ok 
 'localeyes.dk'     //all topscroll ok - midscroll issue on frontpage, 
@@ -43,9 +43,9 @@
 
 //Delta
 'proff.dk'           //all fixed
-'netavisen.nu'       //topscroll ok - midscroll issues
-'folketidende.dk'    //topscroll issue - midscroll issue with DAI ads
-'feltet.dk'          //topscroll mobile issue - midscrolls ok
+'netavisen.nu'       //all topscroll ok - midscroll issues
+'folketidende.dk'    //all topscroll fixed - Midscroll issue (center alignment)
+'feltet.dk'          //all topscroll fixed - midscrolls ok
 'motionsfeltet.dk'   //topscroll mobile issue - midscrolls ok
 'migogodense.dk'     //all topscroll ok - midscroll issue
 'migogkbh.dk'        //all topscroll ok - midscroll issue
