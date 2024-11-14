@@ -93,12 +93,12 @@
 'its-koral.com'        //not yet live in SN
 
 //DBU & Golf
-'golf.dk'                //topscroll desktop ok, mobile issue - midscroll ok
-'dbu.dk'                 //all topscroll issue - midscroll issue
-'dbujylland.dk'          //all topscroll issue - midscroll issue
-'dbufyn.dk'              //all topscroll issue - midscroll issue
-'dbusjaelland.dk'        //all topscroll issue - midscroll issue
-'dbukoebenhavn.dk'       //all topscroll issue - midscroll issue
-'dbulolland-falster.dk'  //all topscroll issue - midscroll issue
-'dbubornholm.dk'         //all topscroll issue - midscroll issue
-'dommer.dbu.dk'          //all topscroll issue - midscroll issue
+'golf.dk'                //all topscroll fixed - midscroll ok
+'dbu.dk'                 //all topscroll fixed - midscroll issue
+'dbujylland.dk'          //all topscroll fixed - midscroll issue
+'dbufyn.dk'              //all topscroll fixed - midscroll issue
+'dbusjaelland.dk'        //all topscroll fixed - midscroll issue
+'dbukoebenhavn.dk'       //all topscroll fixed - midscroll issue
+'dbulolland-falster.dk'  //all topscroll fixed - midscroll issue
+'dbubornholm.dk'         //all topscroll fixed - midscroll issue
+'dommer.dbu.dk'          //all topscroll fixed - midscroll issue
