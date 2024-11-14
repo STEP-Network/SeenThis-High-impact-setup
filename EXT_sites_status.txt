@@ -3,7 +3,7 @@
 'lav-det-selv.dk'  //all topscroll issue - Midscroll issue
 'madridista.dk'    //all ok 
 'localeyes.dk'     //all topscroll ok - midscroll issue on frontpage, 
-'mandesager.dk'    //all topscroll issue - Midscroll ok
+'mandesager.dk'    //all fixed
 'fjordavisen.nu'   //all topscroll ok - midscroll issue
 'randersidag.dk'   //all topscroll ok - midscroll issue
 'viborgidag.dk'    //all topscroll ok - midscroll issue
@@ -18,31 +18,31 @@
 //madensverden + 123mc + digitalt.tv
 'nyheder.dk'       //all ok
 'kendte.dk'        //all ok
-'madensverden.dk'  // issue, remove test from mv - all issue
+'madensverden.dk'  //topscroll desktop issue - midscrolls issue
 '123mc.dk'         //all topscroll ok
 'magacin.dk'       //not yet live in SN
 'baregomad.dk'     //all ok
 'digitalt.tv'      //topcroll destkop issue (stickies overlap), topscroll mobile ok - midscroll ok
 
 //Hey-mate
-'traktorgalleri.dk'     //all topscroll issue - midscroll ok
-'scootergalleri.dk'     //all topscroll issue - midscroll ok
-'motorcykelgalleri.dk'  //all topscroll issue - midscroll ok
-'lastbilgalleri.dk'     //all topscroll issue - midscroll ok
-'kattegalleri.dk'       //all topscroll issue - midscroll ok
-'hundegalleri.dk'       //all topscroll issue - midscroll ok
-'hifigalleri.dk'        //all topscroll issue - midscroll ok
-'hestegalleri.dk'       //all topscroll issue - midscroll ok
-'havebazoom.dk'         //all topscroll issue - midscroll ok
-'gnavergalleri.dk'      //all topscroll issue - midscroll ok
-'cykelgalleri.dk'       //all topscroll issue - midscroll ok
-'boliggalleri.dk'       //all topscroll issue - midscroll ok
-'bilgalleri.dk'         //all topscroll issue - midscroll ok
-'babygalleri.dk'        //all topscroll issue - midscroll ok
-'baboom.dk'             //all topscroll issue - midscroll ok
+'traktorgalleri.dk'     //all fixed
+'scootergalleri.dk'     //all fixed
+'motorcykelgalleri.dk'  //all fixed
+'lastbilgalleri.dk'     //all fixed
+'kattegalleri.dk'       //all fixed
+'hundegalleri.dk'       //all fixed
+'hifigalleri.dk'        //all fixed
+'hestegalleri.dk'       //all fixed
+'havebazoom.dk'         //all fixed
+'gnavergalleri.dk'      //all fixed
+'cykelgalleri.dk'       //all fixed
+'boliggalleri.dk'       //all fixed
+'bilgalleri.dk'         //all fixed
+'babygalleri.dk'        //all fixed
+'baboom.dk'             //all fixed
 
 //Delta
-'proff.dk'           //all topscroll issue - midscroll ok
+'proff.dk'           //all fixed
 'netavisen.nu'       //topscroll ok - midscroll issues
 'folketidende.dk'    //topscroll issue - midscroll issue with DAI ads
 'feltet.dk'          //topscroll mobile issue - midscrolls ok
