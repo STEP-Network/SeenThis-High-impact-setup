@@ -1,7 +1,7 @@
 //GAMMA 
 'plbold.dk'        //all topscroll fixed - Midscroll issue (center alignment)
 'lav-det-selv.dk'  //all topscroll issue - Midscroll issue
-'madridista.dk'    //all ok 
+'madridista.dk'    //all fixed
 'localeyes.dk'     //all topscroll ok - midscroll issue on frontpage, 
 'mandesager.dk'    //all fixed
 'fjordavisen.nu'   //all topscroll ok - midscroll issue
@@ -16,12 +16,12 @@
 'bifsupporters.dk' //not yet live in SN
 
 //madensverden + 123mc + digitalt.tv
-'nyheder.dk'       //all ok
-'kendte.dk'        //all ok
+'nyheder.dk'       //all fixed
+'kendte.dk'        //all fixed
 'madensverden.dk'  //topscroll desktop issue - midscrolls issue
-'123mc.dk'         //all topscroll ok
-'magacin.dk'       //not yet live in SN
-'baregomad.dk'     //all ok
+'123mc.dk'         //all fixed
+'magacin.dk'       //all fixed
+'baregomad.dk'     //all fixed
 'digitalt.tv'      //topcroll destkop issue (stickies overlap), topscroll mobile ok - midscroll ok
 
 //Hey-mate
@@ -45,8 +45,8 @@
 'proff.dk'           //all fixed
 'netavisen.nu'       //all topscroll ok - midscroll issues
 'folketidende.dk'    //all topscroll fixed - Midscroll issue (center alignment)
-'feltet.dk'          //all topscroll fixed - midscrolls ok
-'motionsfeltet.dk'   //topscroll fixed  - midscrolls ok (no mobile site)
+'feltet.dk'          //all fixed
+'motionsfeltet.dk'   //all fixed (no mobile site)
 'migogodense.dk'     //all topscroll ok - midscroll issue
 'migogkbh.dk'        //all topscroll ok - midscroll issue
 'migogaarhus.dk'     //all topscroll ok - midscroll issue
