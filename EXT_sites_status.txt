@@ -46,7 +46,7 @@
 'netavisen.nu'       //all topscroll ok - midscroll issues
 'folketidende.dk'    //all topscroll fixed - Midscroll issue (center alignment)
 'feltet.dk'          //all topscroll fixed - midscrolls ok
-'motionsfeltet.dk'   //topscroll mobile issue - midscrolls ok
+'motionsfeltet.dk'   //topscroll fixed  - midscrolls ok (no mobile site)
 'migogodense.dk'     //all topscroll ok - midscroll issue
 'migogkbh.dk'        //all topscroll ok - midscroll issue
 'migogaarhus.dk'     //all topscroll ok - midscroll issue
@@ -56,22 +56,22 @@
 'boligsiden.dk'      //midscroll mobile only and issue
 
 //Echo
-'mariasilje.dk'        //topscroll mobile issue, desktop ok - midscroll issue
-'marialottes.dk'       //topscroll mobile issue, desktop ok - midscroll issue
-'foodfanatic.dk'       //topscroll mobile issue, desktop ok - midscroll issue
-'beetrootbakery.dk'    //topscroll mobile issue, desktop ok - midscroll issue
-'anna-mad.dk'          //topscroll mobile issue, desktop ok - midscroll issue
-'albertestengaard.dk'  //topscroll mobile issue, desktop ok - midscroll issue
-'ditteblog.dk'         //topscroll mobile issue, desktop ok - midscroll issue
-'majspassion.dk'       //topscroll mobile issue, desktop ok - midscroll issue
-'emmaolsen.dk'         //topscroll mobile issue, desktop ok - midscroll issue
-'connery.dk'           //topscroll mobile issue, desktop ok - midscroll issue
-'mmm.dk'               //topscroll mobile issue, desktop ok - midscroll issue
-'mandekogebogen.dk'    //topscroll desktop issues (with skin loaded), mobile ok - midscroll ok
-'motorsektionen.dk'    //all topscroll ok - midscroll issues
-'familiekogebogen.dk'  //all topscroll ok - midscroll issues
-'raavareguiden.dk'     //topscroll issue - midscroll issue
-'horoskoper.net'       //all topscroll ok - Midscroll issue
+'mariasilje.dk'        //all topscroll issue - midscroll issue - Waiting for js logic
+'marialottes.dk'       //all topscroll issue - midscroll issue - Waiting for js logic
+'foodfanatic.dk'       //all topscroll issue - midscroll issue - Waiting for js logic
+'beetrootbakery.dk'    //all topscroll issue - midscroll issue - Waiting for js logic
+'anna-mad.dk'          //all topscroll issue - midscroll issue - Waiting for js logic
+'albertestengaard.dk'  //all topscroll issue - midscroll issue - Waiting for js logic
+'ditteblog.dk'         //all topscroll issue - midscroll issue - Waiting for js logic
+'majspassion.dk'       //all topscroll issue - midscroll issue - Waiting for js logic
+'emmaolsen.dk'         //all topscroll issue - midscroll issue - Waiting for js logic
+'connery.dk'           //all fixed
+'mmm.dk'               //all topscroll fixed - Midscroll issues (alignment)
+'mandekogebogen.dk'    //all topscroll fixed - Midscroll issues (alignment)
+'motorsektionen.dk'    //all fixed
+'familiekogebogen.dk'  //all fixed
+'raavareguiden.dk'     //all topscroll issue (menu bar) - Midscroll issue (alignment) - Waiting for js logic
+'horoskoper.net'       //all fixed
 
 //Foxtrot
 'bornholm.nu'          //topscroll desktop issue, mobile ok - midscroll ok
