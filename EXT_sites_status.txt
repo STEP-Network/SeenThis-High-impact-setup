@@ -1,5 +1,12 @@
+//****************************************************************//
 //*********** Total topscroll issues left (18/11/2024) ***********//
+//****************************************************************//
 'digitalt.tv'           //topscroll destkop issue - Stickies overlap in the Z-index and can't be shifted down?
+'barcabold.dk'          //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
+'bornholm.nu'           //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
+'nykavis.dk'            //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
+
+/* same front-end */
 'mariasilje.dk'         //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
 'marialottes.dk'        //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
 'foodfanatic.dk'        //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
@@ -9,9 +16,8 @@
 'ditteblog.dk'          //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
 'majspassion.dk'        //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
 'emmaolsen.dk'          //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
-'barcabold.dk'          //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
-'bornholm.nu'           //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
-'nykavis.dk'            //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
+/* same front-end */
+
 'raavareguiden.dk'      //topscroll desktop and mobile issue - navbar overalapping and can't be shifted down?
 '3point.dk'             //topscroll desktop and mobile issue - navbar overalapping and can't be shifted down?
 'bornholmermarked.dk'   //topscroll desktop and mobile issue - navbar overalapping and can't be shifted down?
@@ -21,37 +27,23 @@
 
 
 
+//***********************************************************************//
 //*********** Total midscroll mobile issues left (18/11/2024) ***********//
-'plbold.dk'             //midscroll mobile issue - Center alignment of the div
-'lav-det-selv.dk'       //midscroll mobile issue - Center alignment of the div
-'localeyes.dk'          //midscroll mobile issue - Center alignment of the div
-'fjordavisen.nu'        //midscroll mobile issue - Center alignment of the div
-'randersidag.dk'        //midscroll mobile issue - Center alignment of the div
-'viborgidag.dk'         //midscroll mobile issue - Center alignment of the div
-'aalborgidag.dk'        //midscroll mobile issue - Center alignment of the div
-'rebildidag.dk'         //midscroll mobile issue - Center alignment of the div  
-'djurslandidag.dk'      //midscroll mobile issue - Center alignment of the div
-'okonomista.dk'         //midscroll mobile issue - Center alignment of the div
-'sport.dk'              //midscroll mobile issue - Center alignment of the div
-'madensverden.dk'       //midscroll mobile issue - Center alignment of the div
+//***********************************************************************//
+'lav-det-selv.dk'       //midscroll mobile issue - Ad units does not resize and CSS elements overlapping from publisher
+'localeyes.dk'          //midscroll mobile issue - Ad units is not centered aligned and does not fit 100% of the viewport width
+'fjordavisen.nu'        //midscroll mobile issue - Ad units is not centered aligned and does not fit 100% of the viewport width
+'randersidag.dk'        //midscroll mobile issue - Ad units is not centered aligned and does not fit 100% of the viewport width
+'viborgidag.dk'         //midscroll mobile issue - Ad units is not centered aligned and does not fit 100% of the viewport width
+'aalborgidag.dk'        //midscroll mobile issue - Ad units is not centered aligned and does not fit 100% of the viewport width
+'rebildidag.dk'         //midscroll mobile issue - Ad units is not centered aligned and does not fit 100% of the viewport width
+'djurslandidag.dk'      //midscroll mobile issue - Ad units is not centered aligned and does not fit 100% of the viewport width
+'okonomista.dk'         //midscroll mobile issue - Ad units is not centered aligned and does not fit 100% of the viewport width
+'sport.dk'              //midscroll mobile issue - When loading midscrolls, 20px ish gets added to the body of the webpage and shifts the whole page? Like 100vh + 20px in the total width so to speak.
+'madensverden.dk'       //midscroll mobile issue - Ad units is not centered aligned and does not fit 100% of the viewport width
 'netavisen.nu'          //midscroll mobile issue - Center alignment of the div
 'folketidende.dk'       //midscroll mobile issue - Center alignment of the div
-'migogodense.dk'        //midscroll mobile issue - Center alignment of the div
-'migogkbh.dk'           //midscroll mobile issue - Center alignment of the div
-'migogaarhus.dk'        //midscroll mobile issue - Center alignment of the div
-'migogaalborg.dk'       //midscroll mobile issue - Center alignment of the div
-'migogesbjerg.dk'       //midscroll mobile issue - Center alignment of the div
-'myaalborg.com'         //midscroll mobile issue - Center alignment of the div
 'boligsiden.dk'         //midscroll mobile issue - Center alignment of the div
-'mariasilje.dk'         //midscroll mobile issue - Center alignment of the div
-'marialottes.dk'        //midscroll mobile issue - Center alignment of the div
-'foodfanatic.dk'        //midscroll mobile issue - Center alignment of the div
-'beetrootbakery.dk'     //midscroll mobile issue - Center alignment of the div
-'anna-mad.dk'           //midscroll mobile issue - Center alignment of the div
-'albertestengaard.dk'   //midscroll mobile issue - Center alignment of the div
-'ditteblog.dk'          //midscroll mobile issue - Center alignment of the div
-'majspassion.dk'        //midscroll mobile issue - Center alignment of the div
-'emmaolsen.dk'          //midscroll mobile issue - Center alignment of the div
 'mmm.dk'                //midscroll mobile issue - Center alignment of the div
 'mandekogebogen.dk'     //midscroll mobile issue - Center alignment of the div
 'raavareguiden.dk'      //midscroll mobile issue - Center alignment of the div
@@ -62,6 +54,8 @@
 'guloggratis.dk'        //midscroll mobile issue - Center alignment of the div
 'gastromand.dk'         //midscroll mobile issue - Center alignment of the div
 'bornholmermarked.dk'   //midscroll mobile issue - Center alignment of the div
+
+/* same front-end */
 'dbu.dk'                //midscroll mobile issue - Center alignment of the div
 'dbujylland.dk'         //midscroll mobile issue - Center alignment of the div
 'dbufyn.dk'             //midscroll mobile issue - Center alignment of the div
@@ -70,13 +64,42 @@
 'dbulolland-falster.dk' //midscroll mobile issue - Center alignment of the div
 'dbubornholm.dk'        //midscroll mobile issue - Center alignment of the div
 'dommer.dbu.dk'         //midscroll mobile issue - Center alignment of the div
+/* same front-end */
+
+/* same front-end */
+'mariasilje.dk'         //midscroll mobile issue - Center alignment of the div
+'marialottes.dk'        //midscroll mobile issue - Center alignment of the div
+'foodfanatic.dk'        //midscroll mobile issue - Center alignment of the div
+'beetrootbakery.dk'     //midscroll mobile issue - Center alignment of the div
+'anna-mad.dk'           //midscroll mobile issue - Center alignment of the div
+'albertestengaard.dk'   //midscroll mobile issue - Center alignment of the div
+'ditteblog.dk'          //midscroll mobile issue - Center alignment of the div
+'majspassion.dk'        //midscroll mobile issue - Center alignment of the div
+'emmaolsen.dk'          //midscroll mobile issue - Center alignment of the div
+/* same front-end */
+
+/* same front-end */
+'migogodense.dk'        //midscroll mobile issue - Center alignment of the div
+'migogkbh.dk'           //midscroll mobile issue - Center alignment of the div
+'migogaarhus.dk'        //midscroll mobile issue - Center alignment of the div
+'migogaalborg.dk'       //midscroll mobile issue - Center alignment of the div
+'migogesbjerg.dk'       //midscroll mobile issue - Center alignment of the div
+'myaalborg.com'         //midscroll mobile issue - Center alignment of the div
+/* same front-end */
+
+
+
+
+
+
+
 
 
 
 
 //Domain / entity status from 18/11/2024
 //GAMMA 
-'plbold.dk'        //all topscroll fixed - Midscroll issue (center alignment)
+'plbold.dk'        //all fixed
 'lav-det-selv.dk'  //all topscroll issue - Midscroll issue (topnav bar)
 'madridista.dk'    //all fixed
 'localeyes.dk'     //all topscroll ok - midscroll issue on frontpage, 
@@ -88,7 +111,7 @@
 'rebildidag.dk'    //all topscroll ok - midscroll issue
 'djurslandidag.dk' //all topscroll ok - midscroll issue
 'okonomista.dk'    //all topscroll ok - midscroll issue
-'sport.dk'         //midscroll issue (no topscroll live)
+'sport.dk'         //all topscroll fixed - midscroll issue
 'barcafans.dk'     //not yet live in SN
 'bifsupporters.dk' //not yet live in SN
 
