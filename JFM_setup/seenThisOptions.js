@@ -29,61 +29,67 @@ function() {
       template: 'topscroll',
       slot: '{{ pathPrefix }}topscroll_mobile',
       sizes: [[300, 230], [1, 2]],
-      peekAmount: '80vh' // Set unique peek amount for topscroll_mobile
+      peekAmount: '80vh'
+    },
+    'topscroll_1': {
+      template: 'topscroll',
+      slot: '{{ pathPrefix }}topscroll_1',
+      sizes: [[1, 2]],
+      peekAmount: '80vh'
     },
     'mobile_2_outstream': {
       template: 'midscroll',
       slot: '{{ pathPrefix }}{{ pathOverride }}mobile_2_outstream',
       sizes: [[300, 240], [320, 320]],
-      peekAmount: '100vh' 
+      peekAmount: '75vh' 
     },
     'mobile_3': {
       template: 'midscroll',
       slot: '{{ pathPrefix }}{{ pathOverride }}mobile_3',
       sizes: [[300, 240], [320, 320]],
-      peekAmount: '100vh' 
+      peekAmount: '75vh' 
     },
     'mobile_4': {
       template: 'midscroll',
       slot: '{{ pathPrefix }}{{ pathOverride }}mobile_4',
       sizes: [[300, 240], [320, 320]],
-      peekAmount: '100vh'
+      peekAmount: '75vh'
     },
     'mobile_5': {
       template: 'midscroll',
       slot: '{{ pathPrefix }}{{ pathOverride }}mobile_5',
       sizes: [[300, 240], [320, 320]],
-      peekAmount: '100vh'
+      peekAmount: '75vh'
     },
     'mobile_6': {
       template: 'midscroll',
       slot: '{{ pathPrefix }}{{ pathOverride }}mobile_6',
       sizes: [[300, 240], [320, 320]],
-      peekAmount: '100vh'
+      peekAmount: '75vh'
     },
     'mobile_7': {
       template: 'midscroll',
       slot: '{{ pathPrefix }}{{ pathOverride }}mobile_7',
       sizes: [[300, 240], [320, 320]],
-      peekAmount: '100vh'
+      peekAmount: '75vh'
     },
     'mobile_8': {
       template: 'midscroll',
       slot: '{{ pathPrefix }}{{ pathOverride }}mobile_8',
       sizes: [[300, 240], [320, 320]],
-      peekAmount: '100vh'
+      peekAmount: '75vh'
     },
     'mobile_9': {
       template: 'midscroll',
       slot: '{{ pathPrefix }}{{ pathOverride }}mobile_9',
       sizes: [[300, 240], [320, 320]],
-      peekAmount: '100vh'
+      peekAmount: '75vh'
     },
     'mobile_dai': {
       template: 'midscroll',
       slot: '{{ pathPrefix }}{{ pathOverride }}mobile_dai',
       sizes: [[300, 240], [320, 320]],
-      peekAmount: '100vh'
+      peekAmount: '75vh'
     },
   };
 

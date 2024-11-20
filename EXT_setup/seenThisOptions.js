@@ -38,31 +38,31 @@ function() {
         template: 'midscroll',
         slot: '{{ pathPrefix }}mobile_2',
         sizes: [[300, 240], [320, 320]],
-        peekAmount: '100vh' 
+        peekAmount: '75vh' 
       },
       'mobile_3': {
         template: 'midscroll',
         slot: '{{ pathPrefix }}mobile_3',
         sizes: [[300, 240], [320, 320]],
-        peekAmount: '100vh' 
+        peekAmount: '75vh' 
       },
       'mobile_4': {
         template: 'midscroll',
         slot: '{{ pathPrefix }}mobile_4',
         sizes: [[300, 240], [320, 320]],
-        peekAmount: '100vh'
+        peekAmount: '75vh'
       },
       'mobile_5': {
         template: 'midscroll',
         slot: '{{ pathPrefix }}mobile_5',
         sizes: [[300, 240], [320, 320]],
-        peekAmount: '100vh'
+        peekAmount: '75vh'
       },
       'mobile_dai': {
         template: 'midscroll',
         slot: '{{ pathPrefix }}mobile_dai',
         sizes: [[300, 240], [320, 320]],
-        peekAmount: '100vh'
+        peekAmount: '75vh'
       },
     };
   
