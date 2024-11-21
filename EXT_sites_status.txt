@@ -1,21 +1,14 @@
 //****************************************************************//
 //*********** Total topscroll issues left (18/11/2024) ***********//
 //****************************************************************//
-'digitalt.tv'           //topscroll destkop issue - Stickies overlap in the Z-index and can't be shifted down?
-'barcabold.dk'          //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
-'bornholm.nu'           //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
-'nykavis.dk'            //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
+'digitalt.tv'           //topscroll destkop issue - Stickies overlap in the Z-index and can't be shifted down wihtout breaking?
+'bornholm.nu'           //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down without breaking? Preview URL: https://bornholm.nu/?dfp_target_kv=alwayson-seenthis&ay-manager-preview-id=huD3tHHxyPoM4KALQ.XjFHy4RvoxEQZbL3H
+'nykavis.dk'            //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down wihtout breaking? Preview URL: https://nykavis.dk/?dfp_target_kv=alwayson-seenthis&ay-manager-preview-id=huD3tHHxyPoM4KALQ.Z5jLj8NPT7NN7bHwf
 
 /* same front-end */
-'mariasilje.dk'         //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
-'marialottes.dk'        //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
-'foodfanatic.dk'        //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
-'beetrootbakery.dk'     //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
-'anna-mad.dk'           //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
-'albertestengaard.dk'   //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
-'ditteblog.dk'          //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
-'majspassion.dk'        //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
-'emmaolsen.dk'          //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down?
+'beetrootbakery.dk'     //topscroll desktop issue - menu bar and sticky needs fix 
+'majspassion.dk'        //topscroll desktop issue - menu bar and sticky needs fix
+'emmaolsen.dk'          //topscroll desktop issue - menu bar and sticky needs fix
 /* same front-end */
 
 'raavareguiden.dk'      //topscroll desktop and mobile issue - navbar overalapping and can't be shifted down?
@@ -44,7 +37,7 @@
 'netavisen.nu'          //midscroll mobile issue - Center alignment of the div
 'folketidende.dk'       //midscroll mobile issue - Center alignment of the div
 'boligsiden.dk'         //midscroll mobile issue - Center alignment of the div
-'mmm.dk'                //midscroll mobile issue - Center alignment of the div
+'mmm.dk'                //midscroll mobile issue - Ceter alignment of the div
 'mandekogebogen.dk'     //midscroll mobile issue - Center alignment of the div
 'raavareguiden.dk'      //midscroll mobile issue - Center alignment of the div
 'fodbold-transfers.dk'  //midscroll mobile issue - Center alignment of the div
