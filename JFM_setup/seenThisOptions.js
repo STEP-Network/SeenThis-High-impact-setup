@@ -98,10 +98,8 @@ function() {
     var domainOptions = seenThisOptions['{{ mappedDomain }}'];
 
     // Even if domainOptions is empty, return the default configuration
-    //console.log('domainOptions er vendt retur som true');
     return Object.assign(defaultConfig, domainOptions);
   }
 
-  //console.log('domainOptions er vendt retur som false');
   return null;
 }

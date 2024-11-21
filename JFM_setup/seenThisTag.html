@@ -6,6 +6,7 @@ window.highImpactJs = window.highImpactJs || { cmd: [] };
 function updateAdUnit(adUnitId, adUnitKey, config) {
     window.highImpactJs.cmd.push(() => {
         window.highImpactJs.setConfig({
+            topBarHeight: 68, // Height in px for the topbar - Only JFM sites static value
             plugins: ['gam'], // What adserver plugin to use
             zIndex: 1,
         });
