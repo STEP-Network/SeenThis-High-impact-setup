@@ -11,8 +11,7 @@
 'emmaolsen.dk'          //topscroll desktop issue - menu bar and sticky needs fix
 /* same front-end */
 
-'fodbold-transfers.dk'  //topscroll desktop issue - alignemnt and width of ad unit div is locked to content width, can't resize?
-'madensverden.dk'       //topscroll desktop issue - alignment not centered with page?
+'madensverden.dk'       //topscroll desktop issue - alignment not centered with page? In prod now
 
 
 
