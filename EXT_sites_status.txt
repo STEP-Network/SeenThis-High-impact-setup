@@ -1,5 +1,5 @@
 //****************************************************************//
-//*********** Total topscroll issues left (18/11/2024) ***********//
+//*********** Topscroll issues left (25/11/2024) ***********//
 //****************************************************************//
 'digitalt.tv'           //topscroll destkop issue - Stickies overlap in the Z-index and can't be shifted down wihtout breaking?
 'bornholm.nu'           //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down without breaking? Preview URL: https://bornholm.nu/?dfp_target_kv=alwayson-seenthis&ay-manager-preview-id=huD3tHHxyPoM4KALQ.XjFHy4RvoxEQZbL3H
@@ -9,7 +9,7 @@
 
 
 //***********************************************************************//
-//*********** Total midscroll mobile issues left (18/11/2024) ***********//
+//***********  Midscroll mobile issues left (18/11/2024) ***********//
 //***********************************************************************//
 'lav-det-selv.dk'       //midscroll mobile issue - Ad units does not resize and CSS elements overlapping from publisher
 'localeyes.dk'          //midscroll mobile issue - Ad units is not centered aligned and does not fit 100% of the viewport width
