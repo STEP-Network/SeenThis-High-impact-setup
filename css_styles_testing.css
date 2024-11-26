@@ -50,3 +50,37 @@
 }
 
 
+
+
+
+/* MV setup v2.3 */
+/* sticky ads shift down */
+.high-impact-topscroll-rendered .sticky-tall-left,
+.high-impact-topscroll-rendered .sticky-tall-right {
+    position: absolute;
+    top: calc(50vh); /* no need for the first 80vh, since we're adding 80vh margin-top to the body, shifting the whole page down */
+    margin-top: -300px;
+}
+/* sticky ads default behavior */
+.high-impact-topscroll-is-hidden .sticky-tall-left,
+.high-impact-topscroll-is-hidden .sticky-tall-right {
+    position: fixed;
+    top: 50%;
+}
+
+/* desktop applied only */
+@media (min-width: 769px) {
+    /* full width topsroll fix desktop only */
+    .high-impact-topscroll-rendered .maden-topscroll-desktop {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+    /* Move whole site content down, due to topscroll position being absolute */
+    .high-impact-topscroll-rendered .site-container {
+        margin-top: 80vh;
+    }
+}
+
+/* Needs nav menu fix, then all done - comment 15:45 26nov2024 */
