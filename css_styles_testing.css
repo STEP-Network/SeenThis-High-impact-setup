@@ -1,0 +1,52 @@
+/* Bornholm.nu & nykavis v1 - Broken */
+/* shift sticky ads */ 
+.high-impact-topscroll-rendered .summary.scroll-to-fixed-fixed #left_sticky {
+    left: -300px !important;
+    margin-top: 0px !important;
+    position: absolute !important;
+}
+
+.high-impact-topscroll-rendered .summary.scroll-to-fixed-fixed #right_sticky {
+    left: unset !important;
+    margin-top: 0px !important;
+    position: absolute !important;
+    right: -300px !important
+}
+
+.high-impact-topscroll-rendered .outercontainer {
+    position: absolute !important;
+}
+
+/* revert sticky ads - not done yet */
+.high-impact-topscroll-is-hidden .outercontainer {
+    position: relative !important;
+}
+
+.high-impact-topscroll-is-hidden .summary.scroll-to-fixed-fixed {
+    position: fixed !important;
+}
+
+
+
+/* v1.2 digitalt.tv til sticky ads */
+.high-impact-topscroll-rendered .side-stream {
+    top: calc(80vh + 10px) !important;
+    position: absolute !important;
+}
+.high-impact-topscroll-is-hidden .side-stream {
+    top: 10px !important;
+    position: fixed !important;
+}
+
+/* v1.1 digitalt.tv til top menu bar */
+.high-impact-topscroll-rendered [data-skin="search-in-main-nav"] {
+    line-height: 90px !important;
+    position: absolute !important;
+    width: 1030px !important;
+}
+.high-impact-topscroll-is-hidden [data-skin="search-in-main-nav"] {
+    line-height: 60px !important;
+    position: fixed !important;
+}
+
+
