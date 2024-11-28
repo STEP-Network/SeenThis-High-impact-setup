@@ -1,6 +1,5 @@
 function() {
 
-  // Configuration object for specific domains, allowing overrides
   const seenThisOptions = {
     'avisendanmark.dk': {},
     'dagbladet-holstebro-struer.dk': {},
@@ -25,16 +24,36 @@ function() {
 
   // Default configuration object for ad units
   const defaultConfig = {
-    'topscroll_mobile': {
-      template: 'topscroll',
-      slot: '{{ pathPrefix }}topscroll_mobile',
-      sizes: [[300, 230], [1, 2]],
-      peekAmount: '80vh'
-    },
+    // desktop setup
     'topscroll_1': {
       template: 'topscroll',
       slot: '{{ pathPrefix }}topscroll_1',
       sizes: [[1, 2]],
+      peekAmount: '80vh'
+    },
+    'billboard_2': {
+      template: 'midscroll',
+      slot: '{{ pathPrefix }}{{ pathOverride }}billboard_2',
+      sizes: [[970, 570], [930, 600]],
+      peekAmount: '75vh' 
+    },
+    'billboard_3': {
+      template: 'midscroll',
+      slot: '{{ pathPrefix }}{{ pathOverride }}billboard_3',
+      sizes: [[970, 570], [930, 600]],
+      peekAmount: '75vh' 
+    },
+    'billboard_4': {
+      template: 'midscroll',
+      slot: '{{ pathPrefix }}{{ pathOverride }}billboard_4',
+      sizes: [[970, 570], [930, 600]],
+      peekAmount: '75vh' 
+    },
+    // mobile setup
+    'topscroll_mobile': {
+      template: 'topscroll',
+      slot: '{{ pathPrefix }}topscroll_mobile',
+      sizes: [[300, 230], [1, 2]],
       peekAmount: '80vh'
     },
     'mobile_2_outstream': {
@@ -93,11 +112,9 @@ function() {
     },
   };
 
-  // Check if the current domain has an entry in seenThisOptions
   if (seenThisOptions.hasOwnProperty('{{ mappedDomain }}')) {
     var domainOptions = seenThisOptions['{{ mappedDomain }}'];
 
-    // Even if domainOptions is empty, return the default configuration
     return Object.assign(defaultConfig, domainOptions);
   }
 
