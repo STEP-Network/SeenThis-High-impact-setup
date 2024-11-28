@@ -67,29 +67,9 @@
     position: fixed;
     top: 50%;
 }
-/* desktop applied only */
-@media (min-width: 769px) {
-    /* full width topsroll fix desktop only */
-    .high-impact-topscroll-rendered .maden-topscroll-desktop {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        width: 100%;
-    }
-    /* Move whole site content down, due to topscroll position being absolute */
-    .high-impact-topscroll-rendered .site-container {
-        padding-top: 80vh;
-    }
-}
-/* set nav menu to static / locked behavior - NEEDS FIX */
+
 /* 
-.high-impact-topscroll-rendered [style="height: 60px; position: static;"] {
-    height: 60px;
-    position: relative !important;
-} */
-/* reset nav menu to default - NEEDS FIX */
-/* 
-.high-impact-topscroll-is-hidden .mega-menu-wrap.mega-sticky.mega-stuck {
-    position: fixed;
-} */
+Still needs fix for menu bar on desktop + mobile
+Also having issues with the full-width aspect of the topscroll desktop. 
+It's being cut of based on the max-width from the site-content.
+*/
