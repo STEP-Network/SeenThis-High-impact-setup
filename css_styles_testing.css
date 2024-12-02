@@ -50,7 +50,79 @@
 }
 
 
+/*  Gastrofun.dk v1.0 */ 
+.high-impact-topscroll-rendered:not(.high-impact-topscroll-is-hidden) .floatingads.left,
+.high-impact-topscroll-rendered:not(.high-impact-topscroll-is-hidden) .floatingads.right {
+    position: absolute !important;
+    top: 80vh !important;
+}
 
+
+
+
+
+/* barcelonafc.dk v2.3 */
+.high-impact-topscroll-rendered [data-manual-placement-group="div-gpt-ad-topscroll_desktop"] {
+    margin-top: -70px;
+}
+
+.high-impact-topscroll-rendered:not(.high-impact-topscroll-is-hidden) header #top-bar {
+    position: relative;
+    opacity: 1;
+}
+
+.high-impact-topscroll-is-hidden header {
+    padding-top: 70px;
+}
+
+
+/* Proff.dk v2.1 */
+.high-impact-topscroll-rendered header {
+    position: absolute;
+    top: calc(80vh + 20px)
+  }
+
+.high-impact-topscroll-is-hidden header {
+    position: fixed;
+    top: 0;
+}
+
+.high-impact-topscroll-rendered .mui-8w8i96 {
+    position: absolute;
+    top: calc(80vh + -25px);
+    z-index: 100;
+    width: 100%;
+}
+
+.high-impact-topscroll-rendered main {
+    margin-top: -25px;
+
+}
+
+.high-impact-topscroll-rendered .mui-1otb5p4 {
+    padding-top: 105px;
+}
+
+@media (max-width: 769px) {
+    .high-impact-topscroll-rendered header {
+        position: absolute;
+        top: calc(80vh + -25px)
+      }
+    
+    .high-impact-topscroll-is-hidden header {
+        position: fixed;
+        top: 0;
+    }
+}
+
+
+/* 
+    Top menu pink = 45px
+    top padding: topscroll har 24px
+    manu padding har 16
+
+
+*/
 
 
 /* MV setup v2.5 */

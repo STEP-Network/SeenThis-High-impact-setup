@@ -4,9 +4,6 @@
 'bornholm.nu'           //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down without breaking? Preview URL: https://bornholm.nu/?dfp_target_kv=alwayson-seenthis&ay-manager-preview-id=huD3tHHxyPoM4KALQ.XjFHy4RvoxEQZbL3H
 'nykavis.dk'            //topscroll desktop issue - Stickies overlap in the Z-index and can't be shifted down wihtout breaking? Preview URL: https://nykavis.dk/?dfp_target_kv=alwayson-seenthis&ay-manager-preview-id=huD3tHHxyPoM4KALQ.Z5jLj8NPT7NN7bHwf
 'madensverden.dk'       //topscroll desktop issue - not center aligned, being cut and sticky ads issue
-'proff.dk'              //menu bar issues (new)
-'barcelonafc.dk'        //menu bar issues (new)
-'gastrofun.dk'          //sticky_1 and sticky_2 not shifting down
 
 /* Same front-end */
 'nyheder.dk'            //topscroll desktop issue - not center aligned, being cut and sticky ads issue
