@@ -1,0 +1,21 @@
+<script src="https://video.seenthis.se/public/patrik/high-impact.min.js"></script>
+<script>
+  window.highImpactJs = window.highImpactJs || { cmd: [] };
+  window.highImpactJs.cmd.push(() => {
+    window.highImpactJs.setConfig({
+      topBarHeight: 76, // Height in px for the topbar (optional)
+      plugins: ['gam'], // What adserver plugin to use
+      zIndex: 1,
+    });
+    window.highImpactJs.defineSlot({
+      slot: '/6355419/Travel/Asia', // The GAM ad slot name (might be deprecated in the future.)
+      template: 'midscroll', // Which template to use
+      sizes: [
+        [300, 240]
+      ], // What ad sizes it should work with.
+      adUnitId: 'div-gpt-ad-mobile_2', // Id of the ad slot wrapper div
+      peekAmount: '70vh', // How much of the ad should be visible
+      waitForAdSignal: true, // Default is false.
+    });
+  });
+</script>
