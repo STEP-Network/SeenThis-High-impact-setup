@@ -13,7 +13,7 @@
 
 
 //***********************************************************************//
-//***********  Midscroll mobile issues left (29/11/2024) ****************//
+//***********  Midscroll mobile issues left (10/12/2024) ****************//
 //***********************************************************************//
 'lav-det-selv.dk'       //midscroll mobile issue - Ad units does not resize and CSS elements overlapping from publisher
 'localeyes.dk'          //midscroll mobile issue - Ad units is not centered aligned and does not fit 100% of the viewport width
@@ -26,14 +26,9 @@
 'okonomista.dk'         //midscroll mobile issue - Ad units is not centered aligned and does not fit 100% of the viewport width
 'sport.dk'              //midscroll mobile issue - When loading midscrolls, 20px ish gets added to the body of the webpage and shifts the whole page? Like 100vh + 20px in the total width so to speak.
 'madensverden.dk'       //midscroll mobile issue - Ad units is not centered aligned and does not fit 100% of the viewport width
-'netavisen.nu'          //midscroll mobile issue - Center alignment of the div
-'folketidende.dk'       //midscroll mobile issue - Center alignment of the div
-'boligsiden.dk'         //midscroll mobile issue - Center alignment of the div
-'mmm.dk'                //midscroll mobile issue - Cetenr alignment of the div
-'mandekogebogen.dk'     //midscroll mobile issue - Center alignment of the div
-'raavareguiden.dk'      //midscroll mobile issue - Center alignment of the div
-'fodbold-transfers.dk'  //midscroll mobile issue - Center alignment of the div
-'goquiz.dk'             //midscroll mobile issue - Center alignment of the div
+'fodbold-transfers.dk'  //midscroll mobile issue - not rendering on the page at all??
+'goquiz.dk'             //midscroll mobile issue - not rendering on the page at all??
+
 'barcabold.dk'          //midscroll mobile issue - Center alignment of the div
 'barcelonafc.dk'        //midscroll mobile issue - Center alignment of the div
 'guloggratis.dk'        //midscroll mobile issue - Center alignment of the div

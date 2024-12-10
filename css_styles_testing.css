@@ -1,3 +1,70 @@
+/************************************************************************/
+/* De forskellige classes som tilføjes på de respektive elementer       */
+/* De skifte alt efter format, så topscroll og midscrolls har unikke og */
+/* om de er inde eller ude af view.                                     */
+/************************************************************************/
+
+.high-impact-topscroll-rendered {}    /* Topscroll desktop eller mobile er renderet på siden */
+.high-impact-topscroll-is-hidden {}   /* Topscroll desktop eller mobile er ikke længere in view */
+.high-impact-midscroll-rendered {}    /* Midscroll desktop eller mobile er renderet på siden */
+
+/**********************************************************/
+/* En god model for at ramme midscroll men kun mobile_dai */
+/*    nr 2 eksempel er ramme alle midscroll mobile ads    */
+/**********************************************************/
+/* midscroll mobile_dai only */
+@media (max-width: 768px) {                                         /* Sikre at vi kun tjekker ved mobile devices med skærme mindre end 768px */
+    [data-manual-placement-group="div-gpt-ad-mobile_dai"]           /* Først tjekker vi at parent div har en placement navnet mobile_dai (kommer fra AY) */
+    .high-impact-midscroll-rendered[data-high-impact-js="true"] {   /* Herefter sikre vi at, det kun tilføjes hvis parent er korrekt og child har HIJS renderet og injected */
+        margin-left: -20px !important;                              /* Dette afhænger af forskellige setups, men -20px i left margin plejer at fikse det meste */
+    }
+}
+
+/* alle midscroll mobile */
+@media (max-width: 768px) {                                         /* Sikre at vi kun tjekker ved mobile devices med skærme mindre end 768px */
+    .high-impact-midscroll-rendered[data-high-impact-js="true"] {   /* Sikre vi at element har HIJS renderet og injected */
+        margin: 0 !important;                                       /* Dette afhænger af forskellige setups, men 0px i margin plejer at fikse det meste */
+    }
+}
+
+/************************************************************************/
+/*En god model for at flytte sticky ad units ned ved topscroll_desktop  */
+/************************************************************************/
+.high-impact-topscroll-rendered:not(.high-impact-topscroll-is-hidden) .stickyAdClassName,     /* Vi tjekker om topscroll er renderet, og bruger :not() til at sikre vi kun gør det, når topscroll er in-view */
+.high-impact-topscroll-rendered:not(.high-impact-topscroll-is-hidden) .stickyAdClassName2 {   /* Bruger et " , " som en seperator, fungere ligesom en AND statement, sådan styling skal apply til begge sticky ads */
+position: absolute;                                                                           /* position er låst ift til content (så ikke sticky) */
+    top: calc(80vh + 50px);                                                                   /* flytter elementer 80 view heigth (80%) ned + de pixels som bruges på siden i forvejen ved sticky ads. */
+}
+
+
+
+/* Barcabold midscroll fix */
+@media (max-width: 768px) {
+    .high-impact-midscroll-rendered[data-high-impact-js="true"] {
+        margin-left: -30px !important;
+    }
+}
+
+
+
+
+
+/* raavareguiden */
+@media (max-width: 768px) {
+    .high-impact-midscroll-rendered[data-high-impact-js="true"] {
+        margin: 0px !important;
+    }
+
+    [data-manual-placement-group="div-gpt-ad-mobile_dai"]
+    .high-impact-midscroll-rendered[data-high-impact-js="true"] {
+        margin-left: -30px !important;
+    }
+}
+
+
+
+
+
 /* Bornholm.nu & nykavis v1 - Broken */
 /* shift sticky ads */ 
 .high-impact-topscroll-rendered .summary.scroll-to-fixed-fixed #left_sticky {
@@ -26,6 +93,64 @@
     position: fixed !important;
 }
 
+/* Barcabold.dk Fix sticky ads v1 - START */
+.high-impact-topscroll-rendered:not(.high-impact-topscroll-is-hidden) .floatingAdLeft, 
+.high-impact-topscroll-rendered:not(.high-impact-topscroll-is-hidden) .floatingAd {
+    position: absolute;
+    top: calc(80vh + 50px);
+}
+/* sticky ads v1 - END */
+
+
+
+/* netavisen v1 midscroll mobile center fix */
+@media (max-width: 768px) {
+    .high-impact-midscroll-rendered[data-high-impact-js="true"] {
+        margin: 0 !important;
+    }
+}
+
+/* v1.5 */
+@media (max-width: 768px) {
+    .high-impact-midscroll-rendered[data-high-impact-js="true"]:not([data-manual-placement-group="div-gpt-ad-mobile_dai"]) {
+        margin: 0 !important;
+    }
+}
+
+/* v2 */
+@media (max-width: 768px) {
+    div:not([data-manual-placement-group="div-gpt-ad-mobile_dai"]) 
+        .high-impact-midscroll-rendered[data-high-impact-js="true"] {
+        margin: 0 !important;
+    }
+}
+
+/* v3 */
+@media (max-width: 768px) {
+    /* Apply margin: 0 to .high-impact-midscroll-rendered[data-high-impact-js="true"] 
+       except when its closest ancestor has data-manual-placement-group="div-gpt-ad-mobile_dai" */
+    .high-impact-midscroll-rendered[data-high-impact-js="true"] {
+        margin: 0 !important;
+    }
+
+    [data-manual-placement-group="div-gpt-ad-mobile_dai"] 
+    .high-impact-midscroll-rendered[data-high-impact-js="true"] {
+        margin-left: -57px, !important; /* Revert the margin for these specific elements */
+    }
+}
+
+
+
+/* 
+-20px på marign-left ved mobile_dai
+folketidende setup
+ */
+ @media (max-width: 768px) {
+    [data-manual-placement-group="div-gpt-ad-mobile_dai"] 
+    .high-impact-midscroll-rendered[data-high-impact-js="true"] {
+        margin-left: -20px !important;
+    }
+}
 
 
 /* v1.2 digitalt.tv til sticky ads */
@@ -114,15 +239,6 @@
         top: 0;
     }
 }
-
-
-/* 
-    Top menu pink = 45px
-    top padding: topscroll har 24px
-    manu padding har 16
-
-
-*/
 
 
 /* MV setup v2.5 */
