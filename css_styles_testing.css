@@ -38,15 +38,21 @@ position: absolute;                                                             
 
 
 
+
+.high-impact-midscroll-rendered .ad--container--bm-mob2 {
+    height: calc(80vh - 160px) !important;
+}
+
+
+
+
+
 /* Barcabold midscroll fix */
 @media (max-width: 768px) {
     .high-impact-midscroll-rendered[data-high-impact-js="true"] {
         margin-left: -30px !important;
     }
 }
-
-
-
 
 
 /* raavareguiden */
@@ -60,9 +66,6 @@ position: absolute;                                                             
         margin-left: -30px !important;
     }
 }
-
-
-
 
 
 /* Bornholm.nu & nykavis v1 - Broken */
