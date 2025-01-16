@@ -14,6 +14,16 @@ The system checks if the current domain has a configuration in `seenThisOptions`
 If a match is found, the domain-specific configuration is merged with the `defaultConfig`.
 If no match is found, the default configuration is used, or the system returns null if no configuration should be applied.
 
+The object contains the following information that should always be present:
+```javascript
+  'ad_unit_name': { //example value topscroll_desktop or mobile_2
+     template: 'format_type', //two values possible, midscroll OR topscroll (same for both devices)
+     slot: '{{ pathPrefix }}ad_unit_name', //example value topscroll_desktop or mobile_2.
+     sizes: [[0, 0], [0, 0]], //Sizes that HI-JS is allowed to run the given format on. Is the same as Adnami sizes.
+     peekAmount: '80vh' //the height for the creative. Can be px (pixels) or vh (viewport height).
+  },
+```
+
 ## Example Domains:
 jv.dk (default configuration).  
 fyens.dk.com (domain-specific overrides).  
